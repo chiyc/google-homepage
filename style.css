@@ -1,0 +1,92 @@
+* {
+	border: 1px dashed #000000;
+	-webkit-appearance: none;
+}
+div {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	height: 100%;
+	position: relative;
+}
+body {
+	min-height: 100%;
+	border: 1px dotted #0f0;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	list-style-type: none;
+	display: block;
+}
+li {
+	display: inline;
+}
+.main {
+	display: block;
+	margin-top: 150px;
+}
+#logo {
+	margin: auto;
+	display: block;
+	height: 125px;
+}
+form {
+	display: block;
+}
+#text {
+	margin-top: 15px;
+	height: 30px;
+	width: 350px;
+	border: 1px solid #c8c8c8;
+}
+input {
+	margin: auto;
+	display: block;
+	padding-left: 7px;
+}
+#text:hover {
+	border: 1px solid #aaa;
+}
+#text:focus {
+	border: 1px solid #33d;
+}
+.button {
+	top-margin: 200px;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	background-color: #eee;
+	font-weight: bold;
+	color: #555;
+	margin-right: 10px;
+	display: inline-block;
+}
+#buttons {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+#header {
+	height: 20px;
+	display: block;
+}
+#header_items {
+	float: right;
+}
+
+.footer {
+	border: 1px dashed #f00;
+	position: relative
+	height: 20px;
+	bottom: 0;
+}
+#l_footer {
+	float: left;
+}
+#r_footer {
+	float: right;
+}
