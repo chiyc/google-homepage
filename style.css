@@ -1,28 +1,24 @@
 * {
-	border: 1px dashed #000000;
 	-webkit-appearance: none;
-}
-div {
-	margin: 0px;
-	padding: 0px;
 }
 html {
 	height: 100%;
+	min-width: 100%;
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 body {
-	min-height: 100%;
-	border: 1px dotted #0f0;
+	margin: 0;
+	padding: 0;
 }
-ul {
-	margin: 0px;
-	padding: 0px;
+#header {
 	height: 20px;
-	list-style-type: none;
+	margin-top: 20px;
 	display: block;
 }
-li {
-	display: inline;
+#header_list {
+	float: right;
 }
 .main {
 	display: block;
@@ -42,19 +38,12 @@ form {
 	width: 350px;
 	border: 1px solid #c8c8c8;
 }
-input {
-	margin: auto;
+#buttons {
+	text-align: center;
 	display: block;
-	padding-left: 7px;
-}
-#text:hover {
-	border: 1px solid #aaa;
-}
-#text:focus {
-	border: 1px solid #33d;
+	margin-top: 25px;
 }
 .button {
-	top-margin: 200px;
 	border: none;
 	padding: 10px 20px 10px 20px;
 	background-color: #eee;
@@ -63,30 +52,74 @@ input {
 	margin-right: 10px;
 	display: inline-block;
 }
-#buttons {
-	text-align: center;
+input {
+	margin: auto;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 25px;
+	padding-left: 7px;
 }
-#header {
-	height: 20px;
-	display: block;
-}
-#header_items {
-	float: right;
-}
-
-.footer {
-	border: 1px dashed #f00;
-	position: relative
-	height: 20px;
+#footer {
+	background-color: #f8f8f8;
+	border-bottom: none;
+	border-right: none;
+	border-top: 1px solid #ccc;
+	position: fixed;
+	height: 40px;
 	bottom: 0;
+	width: 100%;
 }
 #l_footer {
+	margin-top: 9px;
 	float: left;
 }
 #r_footer {
+	margin-right: 25px;
+	margin-top: 9px;
 	float: right;
+}
+.foot {
+	margin-left: 25px;
+}
+
+
+#login {
+	color: #fff;
+	background-color: #4285f4;
+	font-weight: bold;
+	padding: 8px 13px 8px 13px;
+	border-radius: 3px;
+	border: none;
+}
+#login:hover {
+	text-decoration: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	list-style-type: none;
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: #595959;
+}
+a:hover {
+	text-decoration: underline;
+}
+li {
+	display: inline;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin: 20px 7px 10px 5px;
+}
+#text:hover {
+	border: 1px solid #aaa;
+}
+#text:focus {
+	border: 1px solid #4285f4;
+}
+.button:hover {
+	border: 1px solid #777;
+	color: #333;
+	background-color: #f2f2f2;
 }
